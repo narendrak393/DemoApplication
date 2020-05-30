@@ -16,7 +16,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.text_box);
         textView.setText(R.string.admin);
-        textView.setTextColor(mContext.getColor(R.color.colorAccent));
         textView.setBackgroundColor(mContext.getColor(R.color.colorPrimary));
     }
 }
