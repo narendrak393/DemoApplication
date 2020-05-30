@@ -13,7 +13,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = getApplicationContext();
-        String string = new String("new");
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.text_box);
         textView.setText(R.string.admin);
